@@ -1,0 +1,157 @@
+.plano {
+  padding: 10px;
+  position: relative;
+  border: 1px solid deepskyblue;
+  font-size: 1rem;
+}
+/* .plano:last-child{
+  margin-right: 0;
+} */
+.plano--mais--vendido::after {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  content: "Mais Vendido";
+  background-color: red;
+  color: #fff;
+  font-size: 0.625em;
+  font-weight: bold;
+  line-height: 2.5;
+  padding: 0 10px;
+}
+.plano__cabecalho {
+  background-color: deepskyblue;
+  color: #fff;
+  text-align: center;
+  line-height: 2.5;
+  /*margin: -10px;*/
+  margin-bottom: 0;
+  font-size: 2em;
+}
+.plano__preco {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+}
+.plano__carcteristicas {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 20px 0;
+}
+.plano__carcteristicas > li {
+  text-align: center;
+}
+.plano__rodape {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.principal {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.principal__titulo {
+  font-size: 2.25em;
+  margin: 0;
+  color: #fff;
+  text-shadow: 1px 2px #313131;
+}
+.principal__subtitulo {
+  margin: 60px 0;
+  color: #fff;
+}
+.principal__acao {
+  margin: 60px 0;
+  color: black;
+  text-align: center;
+}
+.botao {
+  display: inline-block;
+  text-align: center;
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.botao:hover {
+  background-color: greenyellow;
+}
+.botao:focus {
+  background-color: goldenrod;
+}
+.botao--principal, .botao--login{
+  border-radius: 10px;
+  background-color: #003b60;
+}
+.botao--chaveador{
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background-image: url("/img/bars.png");
+  outline: none;
+  background: none;
+}
+@media(min-width:992px){
+  .botao--chaveador{
+    display: none;
+  }
+}
+.depoimento > blockquote {
+  position: relative;
+  margin: 0;
+  padding: 0 60px;
+  text-align: center;
+}
+.depoimento > blockquote::before{
+  position: absolute;
+  left: 400px;
+  top: -0.5em;
+  font-size: 7.5em;
+  color: black;
+  content: "\201C";
+}
+.depoimento > blockquote::after{
+  position: absolute;
+  right: 400px;
+  font-size: 7.5em;
+  color: black;
+  content: "\201D";
+}
+.depoimento__autor {
+  margin-top: 40px;
+  text-align: center;
+}
+.depoimento__autor > img {
+  border-radius: 30%;
+}
+.navegacao{
+  border: 50%;
+}
+.navegacao__menu{
+  float: right;
+}
+@media(max-width:991px){
+  .menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    border: 1px solid rgb(122, 231, 245);
+    background-color: rgb(122, 231, 245);
+    padding: 20px;
+    margin: 0;
+    font-size: 1.2rem;
+    list-style: none;
+  }
+}
+@media(min-width:992px){
+  .menu__item{
+    display: inline-block;
+    padding-right: 20px;
+  }
+  .menu__item:last-of-type{
+    padding-right: 0px;
+  }
+}

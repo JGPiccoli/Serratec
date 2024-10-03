@@ -32,7 +32,7 @@ programa
  * 
  * @POSICAO-CURSOR = 225; 
  * @PONTOS-DE-PARADA = 6;
- * @SIMBOLOS-INSPECIONADOS = {num, 6, 16, 3}-{numInconst, 6, 21, 10}-{invertido, 6, 33, 9};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

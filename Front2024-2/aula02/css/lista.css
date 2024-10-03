@@ -1,0 +1,10 @@
+ul.Menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.Menu > li{
+    display: inline-block;
+    border: 3px solid gray;
+    background-color: yellow;
+}

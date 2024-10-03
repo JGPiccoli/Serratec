@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        h1::first-letter{
+            font-size: 50px;
+            color: darkblue;
+        }
+
+        h2::before{
+            content: "Curso - ";
+            text-shadow: 1px 2px;
+        }
+
+        h2::after{
+            content: " 2024";
+        }
+        
+    </style>
+  </head>
+  <body>
+    <article class="artigo">
+      <h1>Exemplo de Pseudo Elemento</h1>
+      <h2>Por onde começar?</h2>
+    </article>
+  </body>
+</html>
