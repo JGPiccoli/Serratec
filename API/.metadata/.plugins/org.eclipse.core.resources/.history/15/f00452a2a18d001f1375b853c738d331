@@ -1,0 +1,18 @@
+package org.serratec.backend.servicedto.service;
+
+import org.serratec.backend.servicedto.repository.FuncionarioRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class FuncionarioService {
+	
+	@Autowired
+	FuncionarioRepository funcionarioRepository;
+	
+	@Autowired
+	FotoService fotoService;
+	
+	
+	
+}

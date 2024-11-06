@@ -1,0 +1,5 @@
+package org.serratec.backend.servicedto.dto;
+
+public class FuncionarioDTO {
+
+}

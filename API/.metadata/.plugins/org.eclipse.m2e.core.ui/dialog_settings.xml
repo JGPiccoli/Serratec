@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\ww\Desktop\API\TrabalhoAPI\TrabalhoFinalAPIGrupo5"/>
+			<item value="C:\Users\ww\Desktop\API"/>
+			<item value="C:\Users\ww\Desktop\TrabalhoAPI\TrabalhoFinalAPIGrupo5"/>
+			<item value="C:\Users\ww\Desktop\TrabalhoAPI\trabalhofinal\TrabalhoFinalAPIGrupo5"/>
+			<item value="C:\Users\ww\Desktop\projeto-service-dto"/>
+			<item value="C:\Users\ww\Desktop\TrabalhoAPI\trabalhoindividual"/>
+			<item value="C:\Users\ww\Desktop\trabalhoindividual"/>
+			<item value="C:\Users\ww\Desktop\API\TerceiraSpring\h2banco"/>
+			<item value="C:\Users\ww\Desktop\API\SegundaSpring\mapeamento"/>
+			<item value="C:\Users\ww\Desktop\API\PrimeiraSpring\ola-mundo"/>
+			<item value="C:\Users\ww\Desktop\mapeamento"/>
+			<item value="C:\Users\ww\Desktop\ola-mundo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

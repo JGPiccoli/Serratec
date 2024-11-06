@@ -1,0 +1,40 @@
+package org.serratec.trabalhofinal.redesocialsimples.config;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Contact;
+import io.swagger.v3.oas.models.info.License;
+import io.swagger.v3.oas.models.servers.Server;
+
+public class OpenApiConfig {
+	
+	@Value("${dominio.openapi.dev}")
+	private String devUrl;
+	
+	@Value("${dominio.openapi.prod}")
+	private String prodUrl;
+	
+	@Bean
+	OpenAPI myOpenAPI() {
+		Server devServer = new Server();
+		devServer.setUrl(devUrl);
+		devServer.setDescription("URL do server de desenvolvimento");
+		
+		Server prodServer = new Server();
+		prodServer.setUrl(prodUrl);
+		prodServer.setDescription("URL do servidor de produção");
+		
+		Contact contact = new Contact();
+		contact.setEmail("joaoguilhermepiccoli@gmail.com");
+		contact.setName("João");
+		contact.setUrl("https://www.meudoominio.com.br");
+		
+		License apacheLicense = new License().name("Apache License")
+				.url("https://www.apache.org/license/LINCESE_2.0");
+		
+		
+	}
+	
+}
